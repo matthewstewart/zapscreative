@@ -1,5 +1,14 @@
 .App {
-  
+    .viewport-container {
+        position: relative;
+        display: block;
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ), url('https://www.fillmurray.com/1800/1200');
+        background-position: center;
+        background-size: center;
+        background-repeat: no-repeat;
+    }
 }
 
 .mdi::before {
